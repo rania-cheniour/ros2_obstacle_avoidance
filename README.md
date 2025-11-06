@@ -3,7 +3,7 @@
 A simple, fast, and reliable ROS 2 (Humble) package that simulates a robot performing **basic navigation with reactive obstacle avoidance** using simulated LIDAR data.
 
 [![Demo Video]([https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1jM2jWAsLHMVZnFVbEk-NEk04mSWwwSrh/view?usp=sharing)]([https://youtu.be/YOUR_VIDEO_ID](https://drive.google.com/file/d/1jM2jWAsLHMVZnFVbEk-NEk04mSWwwSrh/view?usp=sharing))  
-▶️ **Watch the 2-minute demo**: [[https://youtu.be/YOUR_VIDEO_ID](https://youtu.be/YOUR_VIDEO_ID](https://drive.google.com/file/d/1jM2jWAsLHMVZnFVbEk-NEk04mSWwwSrh/view?usp=sharing))
+▶️ **Watch the 2-minute demo**: [[ROS 2 Obstacle Avoidance](https://drive.google.com/file/d/1jM2jWAsLHMVZnFVbEk-NEk04mSWwwSrh/view?usp=sharing)]
 
 ---
 
