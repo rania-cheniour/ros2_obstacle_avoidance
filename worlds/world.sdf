@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <world name="simple">
+
+    <!-- Sky -->
+    <scene>
+      <sky>
+        <clouds>0</clouds>
+      </sky>
+    </scene>
+
+
+    <!-- Ground plane -->
+    <include>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Ground Plane</uri>
+    </include>
+
+    <!-- Walls -->
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Grey%20Wall</uri>
+      <name>west_wall</name>
+      <pose>-3.74034 0.39884 0 0 0 1.59678</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Grey%20Wall</uri>
+      <name>east_wall</name>
+      <pose>3.61652 0.379413 0 0 0 -1.56013</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Grey%20Wall</uri>
+      <name>north_wall</name>
+      <pose>-0.184572 4.03395 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Grey%20Wall</uri>
+      <name>south_wall</name>
+      <pose>0 -3.31085 0 0 0 0</pose>
+    </include>
+
+    <!-- Cylinders (Pillars) -->
+    <model name='cylinder_0'>
+      <pose>1.42527 1.91839 0.5 0 0 0</pose>
+      <link name='cylinder_link'>
+        <inertial>
+          <mass>1.0</mass>
+          <inertia>
+            <ixx>0.1458</ixx>
+            <iyy>0.1458</iyy>
+            <izz>0.125</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry><cylinder><radius>0.3</radius><length>1</length></cylinder></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><cylinder><radius>0.3</radius><length>1</length></cylinder></geometry>
+          <material><diffuse>0.2 0.2 0.8 1.0</diffuse></material>
+        </visual>
+      </link>
+      <static>true</static>
+    </model>
+
+    <model name='cylinder_1'>
+      <pose>1.38908 -1.17942 0.5 0 0 0</pose>
+      <link name='cylinder_link'>
+        <inertial><mass>1.0</mass></inertial>
+        <collision name='collision'>
+          <geometry><cylinder><radius>0.3</radius><length>1</length></cylinder></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><cylinder><radius>0.3</radius><length>1</length></cylinder></geometry>
+          <material><diffuse>0.2 0.2 0.8 1.0</diffuse></material>
+        </visual>
+      </link>
+      <static>true</static>
+    </model>
+
+    <model name='cylinder_2'>
+      <pose>-1.36524 -1.11176 0.5 0 0 0</pose>
+      <link name='cylinder_link'>
+        <inertial><mass>1.0</mass></inertial>
+        <collision name='collision'>
+          <geometry><cylinder><radius>0.3</radius><length>1</length></cylinder></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><cylinder><radius>0.3</radius><length>1</length></cylinder></geometry>
+          <material><diffuse>0.2 0.2 0.8 1.0</diffuse></material>
+        </visual>
+      </link>
+      <static>true</static>
+    </model>
+
+    <model name='cylinder_3'>
+      <pose>-1.41804 2.05402 0.5 0 0 0</pose>
+      <link name='cylinder_link'>
+        <inertial><mass>1.0</mass></inertial>
+        <collision name='collision'>
+          <geometry><cylinder><radius>0.3</radius><length>1</length></cylinder></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><cylinder><radius>0.3</radius><length>1</length></cylinder></geometry>
+          <material><diffuse>0.2 0.2 0.8 1.0</diffuse></material>
+        </visual>
+      </link>
+      <static>true</static>
+    </model>
+
+
+  </world>
+</sdf>
