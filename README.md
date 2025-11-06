@@ -10,7 +10,7 @@ A simple, fast, and reliable ROS 2 (Humble) package that simulates a robot perfo
 ## ✅ Features
 
 - Moves forward at **0.7 m/s** in clear space  
-- **Turns right** when an obstacle is detected within **0.9 meters**  
+- **Turns right** when an obstacle is detected within **1.0 meters**  
 - **Filters out false detections** (self-collisions, noise, invalid LIDAR readings)  
 - **Logs clear status messages** (`MOVING`, `TURNING`) — extra feature  
 - Works out-of-the-box with **TurtleBot3 Gazebo simulation**
