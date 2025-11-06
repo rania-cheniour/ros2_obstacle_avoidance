@@ -30,7 +30,7 @@ mkdir -p ~/ros2_obstacle_ws/src
 cd ~/ros2_obstacle_ws/src
 
 # Clone this repository
-git clone https://github.com/YOUR_USERNAME/ros2_obstacle_avoidance.git
+git clone https://github.com/rania-cheniour/ros2_obstacle_avoidance.git
 
 # Install dependencies
 cd ..
